@@ -47,7 +47,7 @@ module.exports = {
 //    alias: { userEnv$: path.resolve(__dirname, `.env/${environment}.ts`) }
   },
   output: {
-    path: path.resolve("/www", "app", "lang", "words"),
+    path: path.resolve("/www", "app", "sea_urchin"),
     filename: "bundle.js"
   },
   plugins: [
