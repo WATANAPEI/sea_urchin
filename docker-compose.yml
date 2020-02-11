@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+    sea_urchin:
+      build: .
+      container_name: "sea_urchin"
+      volumes:
+          - type: volume
+            source: out_sea_urchin
+            target: /www/app/sea_urchin
+      networks:
+          - mynet
+
+volumes:
+    out_sea_urchin:
+        external: true
+
+networks:
+    mynet:
+        external: true

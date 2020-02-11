@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`</SideBar /> has a MenuList and MenuItems 1`] = `
+<WithStyles(ForwardRef(Paper))
+  className="makeStyles-sideBar-1"
+>
+  <ForwardRef(MenuList)
+    className="makeStyles-li-2"
+  >
+    <WithStyles(ForwardRef(MenuItem))>
+      <NavLink
+        className="makeStyles-navLink-3"
+        to="/lang/words/"
+      >
+        Word Card
+      </NavLink>
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))>
+      <NavLink
+        className="makeStyles-navLink-3"
+        to="/lang/words/wordlist"
+      >
+        Word List
+      </NavLink>
+    </WithStyles(ForwardRef(MenuItem))>
+  </ForwardRef(MenuList)>
+</WithStyles(ForwardRef(Paper))>
+`;

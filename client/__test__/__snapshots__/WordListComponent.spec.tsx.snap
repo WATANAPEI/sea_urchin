@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WordListComponent /> renders properly 1`] = `
+<div
+  className="makeStyles-wordListContainer-2"
+>
+  <WithStyles(ForwardRef(Paper))
+    className="makeStyles-paper-3"
+    id="1"
+    key="1"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="row"
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <h1
+          className="word_id"
+        >
+          1
+        </h1>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        sm={true}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          direction="column"
+          item={true}
+          spacing={2}
+          xs={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={true}
+          >
+            <h3
+              className="word_word"
+            >
+              this_is_front_message_1
+            </h3>
+            <h3
+              className="word_meaning"
+            >
+              this_is_back_message_1
+            </h3>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Paper))>
+  <WithStyles(ForwardRef(Paper))
+    className="makeStyles-paper-3"
+    id="2"
+    key="2"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="row"
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <h1
+          className="word_id"
+        >
+          2
+        </h1>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        sm={true}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          direction="column"
+          item={true}
+          spacing={2}
+          xs={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={true}
+          >
+            <h3
+              className="word_word"
+            >
+              this_is_front_message_2
+            </h3>
+            <h3
+              className="word_meaning"
+            >
+              this_is_back_message_2
+            </h3>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Paper))>
+</div>
+`;
+
+exports[`<WordListComponent /> shows error message when isError is true 1`] = `
+<WordListComponent
+  isError={true}
+  isLoading={false}
+  wordListProps={
+    Array [
+      Object {
+        "id": 1,
+        "wordBack": "this_is_back_message_1",
+        "wordFront": "this_is_front_message_1",
+      },
+      Object {
+        "id": 2,
+        "wordBack": "this_is_back_message_2",
+        "wordFront": "this_is_front_message_2",
+      },
+    ]
+  }
+>
+  <div
+    className="makeStyles-wordListContainer-2"
+  >
+    <WithStyles(ForwardRef(Container))
+      className="makeStyles-loadingMessage-4"
+      id="loadingErrorMessage"
+    >
+      <ForwardRef(Container)
+        className="makeStyles-loadingMessage-4"
+        classes={
+          Object {
+            "fixed": "MuiContainer-fixed",
+            "maxWidthLg": "MuiContainer-maxWidthLg",
+            "maxWidthMd": "MuiContainer-maxWidthMd",
+            "maxWidthSm": "MuiContainer-maxWidthSm",
+            "maxWidthXl": "MuiContainer-maxWidthXl",
+            "maxWidthXs": "MuiContainer-maxWidthXs",
+            "root": "MuiContainer-root",
+          }
+        }
+        id="loadingErrorMessage"
+      >
+        <div
+          className="MuiContainer-root makeStyles-loadingMessage-4 MuiContainer-maxWidthLg"
+          id="loadingErrorMessage"
+        >
+          Something went wrong...
+        </div>
+      </ForwardRef(Container)>
+    </WithStyles(ForwardRef(Container))>
+  </div>
+</WordListComponent>
+`;
+
+exports[`<WordListComponent /> shows load message when loading 1`] = `
+<WordListComponent
+  isError={false}
+  isLoading={true}
+  wordListProps={
+    Array [
+      Object {
+        "id": 1,
+        "wordBack": "this_is_back_message_1",
+        "wordFront": "this_is_front_message_1",
+      },
+      Object {
+        "id": 2,
+        "wordBack": "this_is_back_message_2",
+        "wordFront": "this_is_front_message_2",
+      },
+    ]
+  }
+>
+  <div
+    className="makeStyles-wordListContainer-2"
+  >
+    <WithStyles(ForwardRef(Container))
+      className="makeStyles-loadingMessage-4"
+      id="loadingMessage"
+    >
+      <ForwardRef(Container)
+        className="makeStyles-loadingMessage-4"
+        classes={
+          Object {
+            "fixed": "MuiContainer-fixed",
+            "maxWidthLg": "MuiContainer-maxWidthLg",
+            "maxWidthMd": "MuiContainer-maxWidthMd",
+            "maxWidthSm": "MuiContainer-maxWidthSm",
+            "maxWidthXl": "MuiContainer-maxWidthXl",
+            "maxWidthXs": "MuiContainer-maxWidthXs",
+            "root": "MuiContainer-root",
+          }
+        }
+        id="loadingMessage"
+      >
+        <div
+          className="MuiContainer-root makeStyles-loadingMessage-4 MuiContainer-maxWidthLg"
+          id="loadingMessage"
+        >
+          <WithStyles(ForwardRef(CircularProgress))>
+            <ForwardRef(CircularProgress)
+              classes={
+                Object {
+                  "circle": "MuiCircularProgress-circle",
+                  "circleDisableShrink": "MuiCircularProgress-circleDisableShrink",
+                  "circleIndeterminate": "MuiCircularProgress-circleIndeterminate",
+                  "circleStatic": "MuiCircularProgress-circleStatic",
+                  "colorPrimary": "MuiCircularProgress-colorPrimary",
+                  "colorSecondary": "MuiCircularProgress-colorSecondary",
+                  "indeterminate": "MuiCircularProgress-indeterminate",
+                  "root": "MuiCircularProgress-root",
+                  "static": "MuiCircularProgress-static",
+                  "svg": "MuiCircularProgress-svg",
+                }
+              }
+            >
+              <div
+                className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+                role="progressbar"
+                style={
+                  Object {
+                    "height": 40,
+                    "width": 40,
+                  }
+                }
+              >
+                <svg
+                  className="MuiCircularProgress-svg"
+                  viewBox="22 22 44 44"
+                >
+                  <circle
+                    className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                    cx={44}
+                    cy={44}
+                    fill="none"
+                    r={20.2}
+                    strokeWidth={3.6}
+                    style={Object {}}
+                  />
+                </svg>
+              </div>
+            </ForwardRef(CircularProgress)>
+          </WithStyles(ForwardRef(CircularProgress))>
+        </div>
+      </ForwardRef(Container)>
+    </WithStyles(ForwardRef(Container))>
+  </div>
+</WordListComponent>
+`;

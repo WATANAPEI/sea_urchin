@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "/www/app/sea_urchin",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+      "./client/**/*"
+  ],
+  "exclude": [
+      "./client/__test__/*"
+  ]
+}

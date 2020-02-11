@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders properly 1`] = `
+<BrowserRouter>
+  <WithStyles(ForwardRef(Grid))
+    className="makeStyles-headerBar-1"
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      id="headerBar"
+      item={true}
+      xs={12}
+    >
+      <HeaderBar
+        text="Lang Project"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      className="makeStyles-sideBar-2"
+      id="sideBar"
+      item={true}
+      xs={3}
+    >
+      <SideBar />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      className="makeStyles-main-3"
+      item={true}
+      xs={9}
+    >
+      <Route
+        exact={true}
+        id="main"
+        path="/lang/words/"
+        render={[Function]}
+      />
+      <Route
+        id="wordList"
+        path="/lang/words/wordlist"
+        render={[Function]}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</BrowserRouter>
+`;
